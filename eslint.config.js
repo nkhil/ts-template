@@ -23,6 +23,8 @@ export default [
     },
     rules: {
       ...eslintPluginUnicorn.configs.recommended.rules,
+      'semi': ['error', 'never'],
+      'quotes': ['error', 'single'],
       'no-console': 'warn',
       'unicorn/prevent-abbreviations': 'off',
       'unicorn/no-process-exit': 'off',
