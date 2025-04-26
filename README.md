@@ -2,7 +2,8 @@
 
 ## Instructions
 
-```bash
+Use [degit](https://github.com/Rich-Harris/degit) to start a new project using this template
 
-npx degit yourusername/your-typescript-template my-new-project
+```bash
+npx degit nkhil/ts-template <new-project-name>
 ```
